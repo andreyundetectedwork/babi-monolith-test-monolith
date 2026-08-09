@@ -1,1 +1,0 @@
-# babi-monolith-test-monolith

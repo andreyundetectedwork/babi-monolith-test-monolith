@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babi Gourmet & Wine | Podgorica</title>
+    <meta name="description" content="Babi Gourmet & Wine u Podgorici. Ekskluzivna kuhinja, vrhunska vina i nezaboravna atmosfera.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="site-header" id="header">
+        <div class="container header-container">
+            <a href="#hero" class="brand-logo">
+                <span class="logo-title">BABI</span>
+                <span class="logo-sub">Gourmet & Wine</span>
+            </a>
+
+            <nav class="desktop-nav" id="desktop-nav">
+                <a href="#about" data-i18n="nav_about">Атмосфера</a>
+                <a href="#menu" data-i18n="nav_menu">Мени</a>
+                <a href="#reviews" data-i18n="nav_reviews">Утисци</a>
+                <a href="#contacts" data-i18n="nav_contacts">Контакт</a>
+            </nav>
+
+            <div class="header-actions">
+                <div class="lang-switch">
+                    <button class="lang-btn active" data-lang="sr">SR</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                </div>
+                <a href="tel:+38267160393" class="btn btn-call-sm">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <span class="desktop-only">+382 67 160 393</span>
+                </a>
+                <button class="burger-btn" id="burger-btn" aria-label="Open Menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobile-drawer">
+        <div class="drawer-content">
+            <nav class="mobile-nav">
+                <a href="#about" class="drawer-link" data-i18n="nav_about">Атмосфера</a>
+                <a href="#menu" class="drawer-link" data-i18n="nav_menu">Мени</a>
+                <a href="#reviews" class="drawer-link" data-i18n="nav_reviews">Утисци</a>
+                <a href="#contacts" class="drawer-link" data-i18n="nav_contacts">Контакт</a>
+            </nav>
+            <div class="drawer-footer">
+                <div class="lang-switch mobile-lang">
+                    <button class="lang-btn active" data-lang="sr">SR</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                </div>
+                <a href="tel:+38267160393" class="btn btn-primary full-width">+382 67 160 393</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-bg-wrapper">
+            <img src="assets/img_03.jpg" alt="Babi Gourmet & Wine Interior" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-badge">
+                <span class="rating-star">★</span>
+                <span class="rating-val">4.7</span>
+                <span class="rating-count" data-i18n="hero_reviews_count">1500+ рецензија</span>
+            </div>
+            <h1 class="hero-title">Babi Gourmet & Wine</h1>
+            <p class="hero-subtitle" data-i18n="hero_subtitle">Интиман амбијент, богато винско искуство и врхунски гастрономски специјалитети у срцу Подгорице.</p>
+            
+            <div class="hero-actions">
+                <a href="#menu" class="btn btn-primary" data-i18n="btn_explore_menu">Истражите мени</a>
+                <a href="tel:+38267160393" class="btn btn-outline" data-i18n="btn_reserve">Резервишите сто</a>
+            </div>
+
+            <div class="hero-info-pills">
+                <div class="pill-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span data-i18n="hours_label">Сваки дан: 08:00 - 00:00</span>
+                </div>
+                <div class="pill-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <span>Šeika Zaida, Podgorica</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Atmosphere / Highlights -->
+    <section class="atmosphere-section" id="about">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-tag" data-i18n="tag_atmosphere">Ексклузивни амбијент</span>
+                <h2 class="section-title" data-i18n="title_atmosphere">Мјесто гдје се сусрећу укус, вино и елеганција</h2>
+            </div>
+
+            <div class="atmosphere-grid">
+                <div class="grid-card card-large">
+                    <img src="assets/img_01.jpg" alt="Wine & Table Setting" loading="lazy">
+                    <div class="card-caption">
+                        <h3 data-i18n="caption_wine_title">Врхунска винска карта</h3>
+                        <p data-i18n="caption_wine_desc">Пажљиво одабрана етикета за сваки тањир и сваки тренутак.</p>
+                    </div>
+                </div>
+                <div class="grid-card">
+                    <img src="assets/img_02.jpg" alt="Gourmet Dish Presentation" loading="lazy">
+                    <div class="card-caption">
+                        <h3 data-i18n="caption_food_title">Ауторски специјалитети</h3>
+                        <p data-i18n="caption_food_desc">Мајсторска припрема меса и свјежих састојака.</p>
+                    </div>
+                </div>
+                <div class="grid-card">
+                    <img src="assets/img_05.jpg" alt="Artisan Dessert" loading="lazy">
+                    <div class="card-caption">
+                        <h3 data-i18n="caption_dessert_title">Префињени десерти</h3>
+                        <p data-i18n="caption_dessert_desc">Савршен завршетак ваше гастрономске вечери.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-head text-center">
+                <span class="section-tag" data-i18n="tag_menu">Гастрономска понуда</span>
+                <h2 class="section-title" data-i18n="title_menu">Наш мени</h2>
+            </div>
+
+            <!-- Menu Category Tabs -->
+            <div class="menu-tabs-wrapper">
+                <div class="menu-tabs">
+                    <button class="tab-btn active" data-category="mains" data-i18n="cat_mains">Главна јела</button>
+                    <button class="tab-btn" data-category="pasta" data-i18n="cat_pasta">Паста & Ризото</button>
+                    <button class="tab-btn" data-category="burgers" data-i18n="cat_burgers">Тортиље, Бургери & Залогаји</button>
+                </div>
+            </div>
+
+            <!-- Dynamic Menu Render Target -->
+            <div class="menu-content" id="menu-target">
+                <!-- Javascript will inject categories & items dynamically based on current language -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Banner -->
+    <section class="feature-banner">
+        <div class="container">
+            <div class="banner-inner">
+                <div class="banner-img">
+                    <img src="assets/img_04.jpg" alt="White Wine Glass" loading="lazy">
+                </div>
+                <div class="banner-text">
+                    <h2 data-i18n="banner_title">Уживајте у вечерњим сатима уз бокал одабраног вина</h2>
+                    <p data-i18n="banner_desc">Babi Gourmet & Wine је идеалан избор за романтичне вечере, пословне сусрете или угодне тренутке са пријатељима.</p>
+                    <a href="tel:+38267160393" class="btn btn-primary" data-i18n="btn_call_now">Позовите +382 67 160 393</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews-section" id="reviews">
+        <div class="container">
+            <div class="section-head text-center">
+                <div class="reviews-overall">
+                    <span class="big-score">4.7</span>
+                    <div class="stars-row">★★★★★</div>
+                    <span class="sub-score" data-i18n="reviews_based_on">на основу 1500+ Google рецензија</span>
+                </div>
+                <h2 class="section-title" data-i18n="title_reviews">Шта кажу наши гости</h2>
+            </div>
+
+            <div class="reviews-carousel" id="reviews-target">
+                <!-- Javascript will render reviews dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location -->
+    <section class="contact-section" id="contacts">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag" data-i18n="tag_contact">Посјетите нас</span>
+                    <h2 class="section-title" data-i18n="title_contact">Контакт & Локација</h2>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="icon-box">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <h4 data-i18n="contact_address_label">Адреса</h4>
+                                <p>Šeika Zaida, Podgorica 81120, Montenegro</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="icon-box">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            </div>
+                            <div>
+                                <h4 data-i18n="contact_hours_label">Радно вријеме</h4>
+                                <p data-i18n="contact_hours_val">Понедељак - Недеља: 08:00 - 00:00</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="icon-box">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div>
+                                <h4 data-i18n="contact_phone_label">Телефон за резервације</h4>
+                                <p><a href="tel:+38267160393" class="phone-link">+382 67 160 393</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="tel:+38267160393" class="btn btn-primary mt-4" data-i18n="btn_call_reserve">Позовите за резервацију</a>
+                </div>
+
+                <div class="map-wrapper">
+                    <iframe 
+                        title="Babi Gourmet & Wine Location"
+                        src="https://maps.google.com/maps?q=Šeika%20Zaida,%20Podgorica%2081120&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-title">BABI</span>
+                <span class="logo-sub">Gourmet & Wine</span>
+                <p class="footer-desc" data-i18n="footer_desc">Елегација укуса и незаборавни тренуци у Подгорици.</p>
+            </div>
+            
+            <div class="footer-nav">
+                <a href="#about" data-i18n="nav_about">Атмосфера</a>
+                <a href="#menu" data-i18n="nav_menu">Мени</a>
+                <a href="#reviews" data-i18n="nav_reviews">Утисци</a>
+                <a href="#contacts" data-i18n="nav_contacts">Контакт</a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="year">2026</span> Babi Gourmet & Wine. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
